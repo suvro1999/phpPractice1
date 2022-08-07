@@ -54,7 +54,54 @@ mytest();
 
     //End of Variable Scope
 
+    //Different Data type and Object 
+    // Data type praticing 
+//There are eight data types avilable 
+//1. Integer 2. Double/ Float 3. String 4. Boolean
+//5. Object 6. Array 7. NULL 8. Resource
+
+$intType = 99;
+echo "This is integer type data  $intType";
+echo "<br>";
+
+$floatType = 19.00;
+echo "This is float/double type data $floatType";
+echo "<br>";
+
+$stringType = "Demo of String";
+echo "This is string type data". $stringType;
+echo "<br>";
+
+$arrayType = array("Hollo", "php", "learner", "Welcome!");
+var_dump($arrayType);
+echo "<br>";
+
+$booleanT = true;
+$booleanF = false;
+echo "This is boolean example of $booleanT and $booleanF";
+
+//For the object type example 
+
+class food{
+public $furits;
+public $colors;
+public function __construct($furits, $colors){
+    $this->furits = $furits;
+    $this->colors = $colors;
     
+    
+    
+}
+public function Massage(){
+
+    return "My fruits is ". $this->furits ." and color is ". $this->colors ."!";
+}
+}
+$myfood = new food("Mango", "Yellow");
+echo $myfood ->Massage();
+echo "<br>";
+$myfood = new food("Drogon", "Red");
+echo $myfood ->Massage();
 
     
     ?>

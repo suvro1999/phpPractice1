@@ -122,6 +122,33 @@ $str = "Hello world!";
 $newstr = str_replace("world","Learner",$str);
 echo $newstr;
 
+
+// Math parctices 
+
+echo (pi()*3);
+echo "<br>";
+
+echo (min(10,212,-27,00,57,948,784,9478,9,6));
+echo "<br>";
+
+echo (max(10,212,-27,00,57,948,784,9478,9,6));
+echo "<br>";
+
+echo (abs(-27.99));
+echo "<br>";
+
+echo (sqrt(81));
+echo "<br>";
+
+echo (round(0.61));
+echo (round(0.49));
+echo "<br>";
+
+echo (rand());
+echo (rand(2,55));
+echo "<br>";
+
+//End of math practicing Section.
     
     ?>
 </body>

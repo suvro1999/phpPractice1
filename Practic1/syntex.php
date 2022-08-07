@@ -8,6 +8,7 @@
 </head>
 <body>
     <?php
+    //This is practice of how to print "hello world" in PHP or check out about php syntax 
     echo "Hello World";
     ?>
 </body>

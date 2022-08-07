@@ -32,6 +32,30 @@
     echo $null;
     
     //End of variable declearation
+
+    //Local scope Variable
+    /*is is local scoop Variable practices in this system you can access only local variable. Which variable are declear 
+    in a function for the function those variable are local variable */
+function firstTest(){
+	$number = 99;
+    echo "<p>There are Variable $number</p>";
+}
+firstTest();
+	echo "<p>There are Variable $number</p>";
+
+    //Global Scope Variable 
+    $x = 5; // global scope
+ 
+function mytest(){
+    echo "<p>There ar x Variable: $x</p>";
+}
+mytest();
+    echo "<p> There are x Variable: $x</p>";
+
+    //End of Variable Scope
+
+    
+
     
     ?>
 </body>

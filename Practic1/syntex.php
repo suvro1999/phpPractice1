@@ -103,6 +103,25 @@ echo "<br>";
 $myfood = new food("Drogon", "Red");
 echo $myfood ->Massage();
 
+//Practicing String featchers 
+
+$str = "this is string";
+echo "$str";
+echo "<br>";
+// String lenth 
+echo strlen($str);
+echo "<br>";
+// String word Count 
+echo str_word_count($str);
+echo "<br>";
+// String reverce
+echo strrev($str);
+echo "<br>";
+// String Replaces 
+$str = "Hello world!";
+$newstr = str_replace("world","Learner",$str);
+echo $newstr;
+
     
     ?>
 </body>

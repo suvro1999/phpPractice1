@@ -149,6 +149,15 @@ echo (rand(2,55));
 echo "<br>";
 
 //End of math practicing Section.
+//What is constants?
+//A constant is an identifier (name) for a simple value. The value cannot be changed during the script.
+//Syntex  define(name, value, case-insensitive)
+
+define("GREETING", "Welcome to W3Schools.com!", true);
+echo greeting;
+define ("Food", "Always eat healthy foods.");
+echo Food;
+
     
     ?>
 </body>
